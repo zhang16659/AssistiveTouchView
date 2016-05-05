@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E45F9AF01CDAF0C00071178B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E45F9AEF1CDAF0C00071178B /* main.m */; };
+		E45F9AF31CDAF0C00071178B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E45F9AF21CDAF0C00071178B /* AppDelegate.m */; };
+		E45F9AF61CDAF0C00071178B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E45F9AF51CDAF0C00071178B /* ViewController.m */; };
+		E45F9AF91CDAF0C00071178B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E45F9AF71CDAF0C00071178B /* Main.storyboard */; };
+		E45F9AFB1CDAF0C00071178B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E45F9AFA1CDAF0C00071178B /* Assets.xcassets */; };
+		E45F9AFE1CDAF0C00071178B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E45F9AFC1CDAF0C00071178B /* LaunchScreen.storyboard */; };
+		E45F9B091CDAF0C00071178B /* ZMWAssistiveTouchViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E45F9B081CDAF0C00071178B /* ZMWAssistiveTouchViewTests.m */; };
+		E45F9B141CDAF0C00071178B /* ZMWAssistiveTouchViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E45F9B131CDAF0C00071178B /* ZMWAssistiveTouchViewUITests.m */; };
+		E45F9B241CDAF0E00071178B /* ZMWAssistiveTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = E45F9B231CDAF0E00071178B /* ZMWAssistiveTouchView.m */; };
+		E45F9B271CDAF5430071178B /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E45F9B261CDAF5430071178B /* TextViewController.m */; };
+		E45F9B2A1CDB21660071178B /* TextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E45F9B291CDB21660071178B /* TextViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E45F9B051CDAF0C00071178B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E45F9AE31CDAF0C00071178B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E45F9AEA1CDAF0C00071178B;
+			remoteInfo = ZMWAssistiveTouchView;
+		};
+		E45F9B101CDAF0C00071178B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E45F9AE31CDAF0C00071178B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E45F9AEA1CDAF0C00071178B;
+			remoteInfo = ZMWAssistiveTouchView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E45F9AEB1CDAF0C00071178B /* ZMWAssistiveTouchView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZMWAssistiveTouchView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E45F9AEF1CDAF0C00071178B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E45F9AF11CDAF0C00071178B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E45F9AF21CDAF0C00071178B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E45F9AF41CDAF0C00071178B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E45F9AF51CDAF0C00071178B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E45F9AF81CDAF0C00071178B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E45F9AFA1CDAF0C00071178B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E45F9AFD1CDAF0C00071178B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E45F9AFF1CDAF0C00071178B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E45F9B041CDAF0C00071178B /* ZMWAssistiveTouchViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZMWAssistiveTouchViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E45F9B081CDAF0C00071178B /* ZMWAssistiveTouchViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMWAssistiveTouchViewTests.m; sourceTree = "<group>"; };
+		E45F9B0A1CDAF0C00071178B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E45F9B0F1CDAF0C00071178B /* ZMWAssistiveTouchViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZMWAssistiveTouchViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E45F9B131CDAF0C00071178B /* ZMWAssistiveTouchViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMWAssistiveTouchViewUITests.m; sourceTree = "<group>"; };
+		E45F9B151CDAF0C00071178B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E45F9B221CDAF0E00071178B /* ZMWAssistiveTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMWAssistiveTouchView.h; sourceTree = "<group>"; };
+		E45F9B231CDAF0E00071178B /* ZMWAssistiveTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMWAssistiveTouchView.m; sourceTree = "<group>"; };
+		E45F9B251CDAF5430071178B /* TextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
+		E45F9B261CDAF5430071178B /* TextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
+		E45F9B281CDB1FCC0071178B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E45F9B291CDB21660071178B /* TextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E45F9AE81CDAF0C00071178B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45F9B011CDAF0C00071178B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45F9B0C1CDAF0C00071178B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E45F9AE21CDAF0C00071178B = {
+			isa = PBXGroup;
+			children = (
+				E45F9AED1CDAF0C00071178B /* ZMWAssistiveTouchView */,
+				E45F9B071CDAF0C00071178B /* ZMWAssistiveTouchViewTests */,
+				E45F9B121CDAF0C00071178B /* ZMWAssistiveTouchViewUITests */,
+				E45F9AEC1CDAF0C00071178B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E45F9AEC1CDAF0C00071178B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E45F9AEB1CDAF0C00071178B /* ZMWAssistiveTouchView.app */,
+				E45F9B041CDAF0C00071178B /* ZMWAssistiveTouchViewTests.xctest */,
+				E45F9B0F1CDAF0C00071178B /* ZMWAssistiveTouchViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E45F9AED1CDAF0C00071178B /* ZMWAssistiveTouchView */ = {
+			isa = PBXGroup;
+			children = (
+				E45F9B211CDAF0D40071178B /* lib */,
+				E45F9AF11CDAF0C00071178B /* AppDelegate.h */,
+				E45F9AF21CDAF0C00071178B /* AppDelegate.m */,
+				E45F9AF41CDAF0C00071178B /* ViewController.h */,
+				E45F9AF51CDAF0C00071178B /* ViewController.m */,
+				E45F9B251CDAF5430071178B /* TextViewController.h */,
+				E45F9B261CDAF5430071178B /* TextViewController.m */,
+				E45F9B291CDB21660071178B /* TextViewController.xib */,
+				E45F9AFA1CDAF0C00071178B /* Assets.xcassets */,
+				E45F9AEE1CDAF0C00071178B /* Supporting Files */,
+			);
+			path = ZMWAssistiveTouchView;
+			sourceTree = "<group>";
+		};
+		E45F9AEE1CDAF0C00071178B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E45F9AF71CDAF0C00071178B /* Main.storyboard */,
+				E45F9AFC1CDAF0C00071178B /* LaunchScreen.storyboard */,
+				E45F9AFF1CDAF0C00071178B /* Info.plist */,
+				E45F9B281CDB1FCC0071178B /* PrefixHeader.pch */,
+				E45F9AEF1CDAF0C00071178B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E45F9B071CDAF0C00071178B /* ZMWAssistiveTouchViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				E45F9B081CDAF0C00071178B /* ZMWAssistiveTouchViewTests.m */,
+				E45F9B0A1CDAF0C00071178B /* Info.plist */,
+			);
+			path = ZMWAssistiveTouchViewTests;
+			sourceTree = "<group>";
+		};
+		E45F9B121CDAF0C00071178B /* ZMWAssistiveTouchViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E45F9B131CDAF0C00071178B /* ZMWAssistiveTouchViewUITests.m */,
+				E45F9B151CDAF0C00071178B /* Info.plist */,
+			);
+			path = ZMWAssistiveTouchViewUITests;
+			sourceTree = "<group>";
+		};
+		E45F9B211CDAF0D40071178B /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				E45F9B221CDAF0E00071178B /* ZMWAssistiveTouchView.h */,
+				E45F9B231CDAF0E00071178B /* ZMWAssistiveTouchView.m */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E45F9AEA1CDAF0C00071178B /* ZMWAssistiveTouchView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E45F9B181CDAF0C00071178B /* Build configuration list for PBXNativeTarget "ZMWAssistiveTouchView" */;
+			buildPhases = (
+				E45F9AE71CDAF0C00071178B /* Sources */,
+				E45F9AE81CDAF0C00071178B /* Frameworks */,
+				E45F9AE91CDAF0C00071178B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZMWAssistiveTouchView;
+			productName = ZMWAssistiveTouchView;
+			productReference = E45F9AEB1CDAF0C00071178B /* ZMWAssistiveTouchView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E45F9B031CDAF0C00071178B /* ZMWAssistiveTouchViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E45F9B1B1CDAF0C00071178B /* Build configuration list for PBXNativeTarget "ZMWAssistiveTouchViewTests" */;
+			buildPhases = (
+				E45F9B001CDAF0C00071178B /* Sources */,
+				E45F9B011CDAF0C00071178B /* Frameworks */,
+				E45F9B021CDAF0C00071178B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E45F9B061CDAF0C00071178B /* PBXTargetDependency */,
+			);
+			name = ZMWAssistiveTouchViewTests;
+			productName = ZMWAssistiveTouchViewTests;
+			productReference = E45F9B041CDAF0C00071178B /* ZMWAssistiveTouchViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E45F9B0E1CDAF0C00071178B /* ZMWAssistiveTouchViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E45F9B1E1CDAF0C00071178B /* Build configuration list for PBXNativeTarget "ZMWAssistiveTouchViewUITests" */;
+			buildPhases = (
+				E45F9B0B1CDAF0C00071178B /* Sources */,
+				E45F9B0C1CDAF0C00071178B /* Frameworks */,
+				E45F9B0D1CDAF0C00071178B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E45F9B111CDAF0C00071178B /* PBXTargetDependency */,
+			);
+			name = ZMWAssistiveTouchViewUITests;
+			productName = ZMWAssistiveTouchViewUITests;
+			productReference = E45F9B0F1CDAF0C00071178B /* ZMWAssistiveTouchViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E45F9AE31CDAF0C00071178B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = walter;
+				TargetAttributes = {
+					E45F9AEA1CDAF0C00071178B = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					E45F9B031CDAF0C00071178B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = E45F9AEA1CDAF0C00071178B;
+					};
+					E45F9B0E1CDAF0C00071178B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = E45F9AEA1CDAF0C00071178B;
+					};
+				};
+			};
+			buildConfigurationList = E45F9AE61CDAF0C00071178B /* Build configuration list for PBXProject "ZMWAssistiveTouchView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E45F9AE21CDAF0C00071178B;
+			productRefGroup = E45F9AEC1CDAF0C00071178B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E45F9AEA1CDAF0C00071178B /* ZMWAssistiveTouchView */,
+				E45F9B031CDAF0C00071178B /* ZMWAssistiveTouchViewTests */,
+				E45F9B0E1CDAF0C00071178B /* ZMWAssistiveTouchViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E45F9AE91CDAF0C00071178B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45F9AFE1CDAF0C00071178B /* LaunchScreen.storyboard in Resources */,
+				E45F9AFB1CDAF0C00071178B /* Assets.xcassets in Resources */,
+				E45F9AF91CDAF0C00071178B /* Main.storyboard in Resources */,
+				E45F9B2A1CDB21660071178B /* TextViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45F9B021CDAF0C00071178B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45F9B0D1CDAF0C00071178B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E45F9AE71CDAF0C00071178B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45F9B271CDAF5430071178B /* TextViewController.m in Sources */,
+				E45F9AF61CDAF0C00071178B /* ViewController.m in Sources */,
+				E45F9B241CDAF0E00071178B /* ZMWAssistiveTouchView.m in Sources */,
+				E45F9AF31CDAF0C00071178B /* AppDelegate.m in Sources */,
+				E45F9AF01CDAF0C00071178B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45F9B001CDAF0C00071178B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45F9B091CDAF0C00071178B /* ZMWAssistiveTouchViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45F9B0B1CDAF0C00071178B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45F9B141CDAF0C00071178B /* ZMWAssistiveTouchViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E45F9B061CDAF0C00071178B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E45F9AEA1CDAF0C00071178B /* ZMWAssistiveTouchView */;
+			targetProxy = E45F9B051CDAF0C00071178B /* PBXContainerItemProxy */;
+		};
+		E45F9B111CDAF0C00071178B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E45F9AEA1CDAF0C00071178B /* ZMWAssistiveTouchView */;
+			targetProxy = E45F9B101CDAF0C00071178B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E45F9AF71CDAF0C00071178B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E45F9AF81CDAF0C00071178B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E45F9AFC1CDAF0C00071178B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E45F9AFD1CDAF0C00071178B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E45F9B161CDAF0C00071178B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E45F9B171CDAF0C00071178B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E45F9B191CDAF0C00071178B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZMWAssistiveTouchView/PrefixHeader.pch";
+				INFOPLIST_FILE = ZMWAssistiveTouchView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shirley.ZMWAssistiveTouchView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E45F9B1A1CDAF0C00071178B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZMWAssistiveTouchView/PrefixHeader.pch";
+				INFOPLIST_FILE = ZMWAssistiveTouchView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shirley.ZMWAssistiveTouchView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E45F9B1C1CDAF0C00071178B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZMWAssistiveTouchViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shirley.ZMWAssistiveTouchViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZMWAssistiveTouchView.app/ZMWAssistiveTouchView";
+			};
+			name = Debug;
+		};
+		E45F9B1D1CDAF0C00071178B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZMWAssistiveTouchViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shirley.ZMWAssistiveTouchViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZMWAssistiveTouchView.app/ZMWAssistiveTouchView";
+			};
+			name = Release;
+		};
+		E45F9B1F1CDAF0C00071178B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZMWAssistiveTouchViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shirley.ZMWAssistiveTouchViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZMWAssistiveTouchView;
+			};
+			name = Debug;
+		};
+		E45F9B201CDAF0C00071178B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZMWAssistiveTouchViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shirley.ZMWAssistiveTouchViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZMWAssistiveTouchView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E45F9AE61CDAF0C00071178B /* Build configuration list for PBXProject "ZMWAssistiveTouchView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E45F9B161CDAF0C00071178B /* Debug */,
+				E45F9B171CDAF0C00071178B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E45F9B181CDAF0C00071178B /* Build configuration list for PBXNativeTarget "ZMWAssistiveTouchView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E45F9B191CDAF0C00071178B /* Debug */,
+				E45F9B1A1CDAF0C00071178B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E45F9B1B1CDAF0C00071178B /* Build configuration list for PBXNativeTarget "ZMWAssistiveTouchViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E45F9B1C1CDAF0C00071178B /* Debug */,
+				E45F9B1D1CDAF0C00071178B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E45F9B1E1CDAF0C00071178B /* Build configuration list for PBXNativeTarget "ZMWAssistiveTouchViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E45F9B1F1CDAF0C00071178B /* Debug */,
+				E45F9B201CDAF0C00071178B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E45F9AE31CDAF0C00071178B /* Project object */;
+}

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="QaS-wU-H2T">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="OfV-5K-iCz">
+            <objects>
+                <navigationController id="QaS-wU-H2T" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="BfA-jE-ddG">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="m3B-Cx-fjj" kind="relationship" relationship="rootViewController" id="Deu-Ys-TcG"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HHf-oU-HTp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-948" y="130"/>
+        </scene>
+        <!--第一页-->
+        <scene sceneID="UEE-t9-PyW">
+            <objects>
+                <viewController id="m3B-Cx-fjj" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vlq-aM-gbs"/>
+                        <viewControllerLayoutGuide type="bottom" id="y4h-c7-n9H"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pq2-tC-jGh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q1u-GS-ROd">
+                                <rect key="frame" x="103" y="214" width="114" height="51"/>
+                                <color key="backgroundColor" red="1" green="0.60119530297798507" blue="0.2263896449794891" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="114" id="2hx-ix-3XM"/>
+                                    <constraint firstAttribute="height" constant="51" id="NsT-z3-DXV"/>
+                                </constraints>
+                                <state key="normal" title="第一页"/>
+                                <connections>
+                                    <segue destination="aqu-h3-YG4" kind="push" id="9Dv-bD-8Tu"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="q1u-GS-ROd" firstAttribute="centerY" secondItem="pq2-tC-jGh" secondAttribute="centerY" id="ffp-Km-Icv"/>
+                            <constraint firstItem="q1u-GS-ROd" firstAttribute="centerX" secondItem="pq2-tC-jGh" secondAttribute="centerX" id="w86-CK-ja9"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="第一页" id="vDW-Ph-5TZ"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wdu-K3-Z5T" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-512" y="-59"/>
+        </scene>
+        <!--Text View Controller-->
+        <scene sceneID="rIw-vd-64i">
+            <objects>
+                <viewController id="M49-cZ-8V7" customClass="TextViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VMY-nb-T4m"/>
+                        <viewControllerLayoutGuide type="bottom" id="Fxf-Kh-W2g"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IyY-1W-T9t">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BiP-1B-yL5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-843" y="768"/>
+        </scene>
+        <!--第二页-->
+        <scene sceneID="XFV-rA-L9w">
+            <objects>
+                <viewController id="aqu-h3-YG4" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Vr3-NM-wca"/>
+                        <viewControllerLayoutGuide type="bottom" id="E3q-Al-aHN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cug-fM-8pa">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eHa-dg-mrX">
+                                <rect key="frame" x="103" y="214" width="114" height="51"/>
+                                <color key="backgroundColor" red="1" green="0.60119530300000001" blue="0.226389645" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="114" id="RJG-sF-ZB8"/>
+                                    <constraint firstAttribute="height" constant="51" id="d5X-2s-2Jv"/>
+                                </constraints>
+                                <state key="normal" title="第二页"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="eHa-dg-mrX" firstAttribute="centerY" secondItem="cug-fM-8pa" secondAttribute="centerY" id="DNX-sX-ivL"/>
+                            <constraint firstItem="eHa-dg-mrX" firstAttribute="centerX" secondItem="cug-fM-8pa" secondAttribute="centerX" id="J4J-nE-sFI"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="第二页" id="Rti-1y-ppu"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y0X-WO-MuK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-512" y="587"/>
+        </scene>
+    </scenes>
+</document>
